@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.f5sites.pomodoros",
   "appName": "ionic-wordpress-tutorial",
   "bundledWebRuntime": false,
   "npmClient": "npm",
