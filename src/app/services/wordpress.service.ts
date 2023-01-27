@@ -24,7 +24,7 @@ export class WordpressService {
     return this.http.get(
       environment.wordpress.api_url
       + 'projectimer_focus?page=' + page
-      + '&orderby=modified' // order by last modified date
+      + '&orderby=modified&_embed' // order by last modified date
       + category_url)
     .pipe(
       map((posts: []) => {

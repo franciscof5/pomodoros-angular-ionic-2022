@@ -23,8 +23,8 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
     this.loginForm = this.formBuilder.group({
-      username: new FormControl('iamdemo', Validators.required),
-      password: new FormControl('iamdemo', Validators.required)
+      username: new FormControl('', Validators.required),
+      password: new FormControl('', Validators.required)
     });
   }
 
